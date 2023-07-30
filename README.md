@@ -9,7 +9,8 @@ Full - Stack Library
 
 ### Inspiration
 
-https://github.com/AleksK1NG/Go-Clean-Architecture-REST-API/tree/master
+- https://github.com/AleksK1NG/Go-Clean-Architecture-REST-API/tree/master
+- https://github.com/theodorusclarence/ts-nextjs-tailwind-starter
 
 ### Go-Lang for API
 
