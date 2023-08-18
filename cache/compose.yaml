@@ -1,5 +1,5 @@
   cache:
-    image: redis:6.2-alpine
+    image: redis:latest
     restart: always
     environment:
       REDIS_PWD: '${REDIS_PWD}'
