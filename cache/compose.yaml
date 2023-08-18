@@ -1,0 +1,10 @@
+  cache:
+    image: redis:6.2-alpine
+    restart: always
+    environment:
+      REDIS_PWD: '${REDIS_PWD}'
+    ports:
+      - '6379:6379'
+    command: redis-server --save 20 1 --loglevel warning --requirepass $REDIS_PWD
+    volumes:
+      - cache:/data
